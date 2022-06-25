@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+docker exec -it sample-cpp-project i586-mingw32msvc-g++ -o build/windows/myapp.exe src/main.cpp

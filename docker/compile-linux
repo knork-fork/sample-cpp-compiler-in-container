@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+docker exec -it sample-cpp-project gcc -o build/linux/myapp src/main.cpp

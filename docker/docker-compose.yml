@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+  sample-cpp-project:
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/application
+    container_name: sample-cpp-project
+    tty: true
